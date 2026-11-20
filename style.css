@@ -1,0 +1,12 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#f1f6f3;color:#172;padding-bottom:50px}
+header{background:#0b6b3a;color:#fff;padding:12px;text-align:center}h1{margin:0;font-size:20px}header p{margin:2px 0 8px}
+#sname{width:100%;max-width:420px;padding:10px;border-radius:8px;border:0;font-size:16px;text-align:center}
+nav{display:flex;position:sticky;top:0;background:#fff;box-shadow:0 1px 4px #0003;z-index:5}
+nav button{flex:1;padding:12px 2px;border:0;background:none;font-weight:700;color:#0b6b3a}nav .on{background:#0b6b3a;color:#fff}
+main{max-width:720px;margin:auto;padding:10px}.card,details{background:#fff;border-radius:10px;padding:12px;margin:10px 0;box-shadow:0 1px 3px #0002}
+summary{font-weight:700;cursor:pointer}.ans{white-space:pre-line;margin-top:8px;color:#0b6b3a;font-weight:600}
+.opt{display:block;width:100%;text-align:left;padding:10px;margin:6px 0;border:1px solid #bcd;border-radius:8px;background:#fafcff;font-size:15px}
+.opt.ok{background:#c8f3d2;border-color:#1a9a3c}.opt.bad{background:#ffd3d3;border-color:#d33}
+.btn{background:#0b6b3a;color:#fff;border:0;padding:12px 16px;border-radius:8px;font-weight:700;margin:4px 4px 4px 0;font-size:15px}
+.btn.alt{background:#c77d0a}label.opt{cursor:pointer}textarea,select{width:100%;padding:8px;margin-top:6px;font-size:15px}
+.pass{color:#0a8a2f}.fail{color:#d22}canvas{width:100%;border-radius:10px;margin-top:8px}footer{position:fixed;bottom:0;left:0;right:0;text-align:center;background:#0b6b3a;color:#ffd;padding:6px;font-size:13px}
